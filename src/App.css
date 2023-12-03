@@ -1,0 +1,47 @@
+/* #ff9600 #282828 #666666 */
+
+* {
+  transition: all 300ms;
+}
+body {
+  font-family: Nova Square;
+  background-color: blue;
+}
+#light {
+  background-color: #666666;
+}
+#dark {
+  background-color: #282828;
+}
+.header {
+  color: #ff9600;
+  border-bottom: solid 0.25em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0 2em 0 0;
+  top: 0px;
+}
+#light .header {
+  background-color: #666666;
+  border-color: #282828;
+}
+#dark .header {
+  background-color: #282828;
+  border-color: #666666;
+}
+.add {
+  border: solid 0.3em;
+  border-radius: 20px;
+  padding: 0 0 0 5px;
+  width: 20em;
+  height: 2em;
+  color: #ff9600;
+}
+#light .add {
+  border-color: #282828;
+}
+#dark .add {
+  border-color: #666666;
+}
