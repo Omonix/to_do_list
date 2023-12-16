@@ -12,14 +12,6 @@ const Footer = () => {
       </p>
       <a
         className="linkBy"
-        href="https://www.instagram.com/omonyx_sama/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Insta
-      </a>
-      <a
-        className="linkBy"
         href="https://github.com/Omonix"
         target="_blank"
         rel="noreferrer"
