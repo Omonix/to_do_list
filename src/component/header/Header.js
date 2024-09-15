@@ -61,7 +61,6 @@ const Header = ({ option, themer, theme, handleArr }) => {
       </div>
       <div>
         <ReactSwitch
-          className="switcherMode"
           onChange={themer}
           checked={theme === "light" ? false : true}
           offColor="#6F1313"
